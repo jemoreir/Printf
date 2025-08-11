@@ -6,7 +6,7 @@
 /*   By: jemoreir <jemoreir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/09 20:30:22 by jemoreir          #+#    #+#             */
-/*   Updated: 2025/08/11 17:26:18 by jemoreir         ###   ########.fr       */
+/*   Updated: 2025/08/11 18:04:17 by jemoreir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,11 +60,6 @@ int	ft_printf(const char *str, ...)
 	}
 	va_end (lista);
 	return (r);
-}
-int main()
-{
-	printf("hello %");
-	// ft_printf("hello %");
 }
 // int main()
 // {
